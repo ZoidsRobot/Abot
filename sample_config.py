@@ -6,7 +6,7 @@ load_dotenv("config.env" if os.path.isfile("config.env") else "sample_config.env
 
 BOT_TOKEN = os.environ.get('BOT_TOKEN', '6132329564:AAEJBoyXwP9eipKIQAxT7yQHf39HzyhV_5A')
 API_ID = int(os.environ.get('API_ID', '9774346'))
-SESSION_STRING = os.environ.get('SESSION_STRING', 'BQCVJQoAU7DnsHMNCIYRXTid4KfseZitP3zjMiHyZ0S4Hwl3UBDvu76NL1akk6zmTlphpz_RHLO3YYqpVyOJ6HhTHH-r5JbTQ4yULJKUa9xttehEKtfUtmXk1YLf0B4FyYOSZkwxAZfJTJOVhrNKKtpWeX9wDp6VXhROapyxSg5mttQvifb4une2gi4DH4OXMpMlpaT0ijWszG0lwaV6W1tn4TSuvoqR4X1kIS02CphOdTef8EZV1td8c0vaGduYExae5ncqmBnaleDrRqF73Ps2k2MZWremjtZ6bNZMYfeyO1Usjy9nNxb_GsVXc2F0sSwhNauez4iCGlgJoJ6kqK3b6phAAAAAA2GAb2AA')
+SESSION_STRING = os.environ.get('SESSION_STRING', 'BQCVJQoAU7DnsHMNCIYRXTid4KfseZitP3zjMiHyZ0S4Hwl3UBDvu76NL1akk6zmTlphpz_RHLO3YYqpVyOJ6HhTHH-r5JbTQ4yULJKUa9xttehEKtfUtmXk1YLf0B4FyYOSZkwxAZfJTJOVhrNKKtpWeX9wDp6VXhROapyxSg5mattQvifb4une2gi4DH4OXMpMlpaT0ijWszG0lwaV6W1tn4TSuvoqR4X1kIS02CphOdTef8EZV1td8c0vaGduYExae5ncqmBnaleDrRqF73Ps2k2MZWremjtZ6bNZ9MYfeyO1Usjy9nNxb_GsVXc2F0sSwhNauez4iCGlgJoJ6kqK3b6phAAAAAA2GAb2AA')
 API_HASH = os.environ.get('API_HASH', 'a92aed7d74654a563af4b07efbcd88e9')
 USERBOT_PREFIX = os.environ.get('USERBOT_PREFIX', '.')
 PHONE_NUMBER = os.environ.get('PHONE_NUMBER')
